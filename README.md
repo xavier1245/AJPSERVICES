@@ -17,19 +17,6 @@ Professional website for AJP Stone & Services, a high-end construction company s
 1. Create a [Vercel account](https://vercel.com)
 2. Install Vercel CLI: `npm i -g vercel`
 
-### Steps to Deploy
-
-1. **Clone/Download the project**
-2. **Set up environment variables in Vercel dashboard:**
-   - `VITE_GA_TRACKING_ID` - Google Analytics tracking ID
-   - `VITE_FACEBOOK_PIXEL_ID` - Facebook Pixel ID
-   - `DATABASE_URL` - PostgreSQL database URL (if using database features)
-
-3. **Deploy using Vercel CLI:**
-   ```bash
-   vercel
-   ```
-   Or connect your GitHub repository to Vercel dashboard for automatic deployments.
 
 4. **Custom Domain (Optional):**
    - Add your custom domain in Vercel dashboard
@@ -58,7 +45,6 @@ npm install
 npm run dev
 ```
 
-Visit `http://localhost:5000`
 
 ## Project Structure
 
